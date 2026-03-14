@@ -1,0 +1,31 @@
+#Dataset(large files)
+dataset/
+*.csv
+*.zip
+
+# Model Files
+ml_model/model/
+*.pt
+*.bin
+
+#HuggingFace cache
+.cache/
+higgingface/
+
+#Pythn cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#virtual environment
+venv/
+env/
+ENV/
+
+# django files
+db.sqlite3
+*.log
+
+#environment variables
+.env
